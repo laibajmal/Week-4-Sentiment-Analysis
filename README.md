@@ -56,23 +56,21 @@ The dataset contains 10 text posts with three sentiment classes:
 
 ## Project Structure
 
-```text
 Week-4/
-├── dataset/
-│   └── sentiment_data.csv
-├── report/
-├── screenshots/
-├── src/
-│   ├── day1.py
-│   ├── day2.py
-│   ├── day3.py
-│   ├── day4.py
-│   ├── day5.py
-│   ├── sentiment_model.pkl
-│   └── tfidf_vectorizer.pkl
-├── .gitignore
-└── README.md
-```
+|-- dataset/
+|   `-- sentiment_data.csv
+|-- report/
+|-- screenshots/
+|-- src/
+|   |-- day1.py
+|   |-- day2.py
+|   |-- day3.py
+|   |-- day4.py
+|   |-- day5.py
+|   |-- sentiment_model.pkl
+|   `-- tfidf_vectorizer.pkl
+|-- .gitignore
+`-- README.md
 
 ## How to Run
 
@@ -102,16 +100,3 @@ This week provided practical experience with:
 ## Note
 
 The dataset used for this internship exercise is intentionally small. Therefore, the evaluation result should not be considered representative of real-world model performance. A larger and more diverse dataset would be required for reliable evaluation.
-
-````
-
-**Ab:**
-1. `Ctrl + S`
-2. Notepad close karo.
-3. PowerShell mein run karo:
-
-```powershell
-Get-Item .\README.md
-````
-
-Output bhejo.
